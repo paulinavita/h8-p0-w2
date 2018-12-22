@@ -1,0 +1,89 @@
+
+
+<!-----Soal no 1-----!>
+
+Algorithm
+1. Save a variable named mass
+2. Save a variable named acceleration
+3. Calculate mass time acceleration
+4. Save result of calculation as variable named force
+5. Show force as the result
+
+Pseudocode
+STORE "mass" with any number
+STORE "acceleration" with any number
+
+CALCULATE "mass" times "acceleration"
+SET "force" value with calculation result
+DISPLAY "force"
+
+<!-----Soal no 2-----!>
+
+Algorithm
+1. Save variable named year
+2. Count the value year with year modulus 4
+3. If the result is not equal to 0 then show that year is not leap year
+4. If the result is equal to 0 then show that year is leap year
+5. The previous result that equals to 0 is mod by 400
+6. If the result is equals to 0 display year is a leap year, not display year is not a leap year
+7. Insert new value for variable
+
+Pseudocode
+STORE "year" with any integer
+    CALCULATE "year" mod 4
+        IF the result is not equal to 0
+            DISPLAY "year" is not a leap year   
+        ELSE
+            CALCULATE result mod 100
+                IF result is 0
+                    DISPLAY "year" is a leap year
+                ELSE
+                    CALCULATE result mod by 400
+                        IF result is equal to 0
+                                DISPLAY "year" is a leap year
+                         ELSE
+                             DISPLAY "year" is not a leap year
+DISPLAY please input new "year" value
+
+
+<----- Soal no3 ----->
+
+Algorithm
+1. Save a variable named "clothes-amount"
+2. Store its value to 0
+3. Add 1 to the value "clothes-amount" until the value 20
+4. Show a messagge 'Washing starts!'
+
+Pseudocode
+STORE "clothes-amount" with 0
+WHILE "clothes-amount" is less than 20
+    ADD "clothes-amount" by 1
+
+DISPLAY "Washing starts!"
+
+<----- Soal no 4 ----->
+
+Algorithm
+1. Save "long-nails" as a variable
+2. Assign the value as true
+3. Save "number of pupil" as a variable
+4. Assign the value with 0
+5. As long as the value of "number of pupil" is less than 40, check if "long-nails" is true
+6. If the value of "long-nails" is true show a message "You're punished"
+7. If the value of "long-nails" is false show a message "Good attitude!"
+
+Pseudocode
+STORE "long-nails" with true
+STORE "number of pupil" with 0
+
+WHILE "number of pupil" < 41
+    DISPLAY "number of pupil"
+    IF "long-nails" is true
+        DISPLAY "You're punished."
+    ELSE
+        DISPLAY "Good attitude!"
+
+
+
+
+

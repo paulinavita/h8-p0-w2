@@ -1,0 +1,61 @@
+if else tugas
+
+
+var nama
+var peran
+peran = ''
+nama = 'Mikael'
+
+if (nama === '' && peran === '') {console.log ('Nama harus diisi!')
+}
+else {
+  if (peran === '') {console.log ('Halo ' + nama + ', Pilih peranmu untuk memulai game!')}
+  else {
+    console.log('Mulai bermain!')
+  }
+}
+
+
+peran = 'Ksatria'
+nama = 'Nina'
+
+if (nama === 'Nina' && peran === 'Ksatria') {
+  console.log('Selamat datang di Dunia Proxytia, ' + nama)
+}
+else {
+  console.log('tes')
+}
+console.log('Halo ' + peran + ' ' + nama + ', kamu dapat menyerang dengan senjatamu!')
+
+peran = 'Tabib'
+nama = 'Danu'
+
+if (nama === 'Danu' && peran === 'Tabib') {
+  console.log('Selamat datang di Dunia Proxytia, ' + nama)
+}
+else {
+  console.log('tes')
+}
+console.log('Halo ' + peran + ' ' + nama + ', kamu akan membantu temanmu yang terluka!')
+
+peran = 'Tabib'
+nama = 'Danu'
+
+if (nama === 'Danu' && peran === 'Tabib') {
+  console.log('Selamat datang di Dunia Proxytia, ' + nama)
+}
+else {
+  console.log('tes')
+}
+console.log('Halo ' + peran + ' ' + nama + ', kamu akan membantu temanmu yang terluka!')
+
+peran = 'Tabib'
+nama = 'Danu'
+
+if (nama === 'Zero' && peran === 'Penyihir') {
+  console.log('Selamat datang di Dunia Proxytia, ' + nama)
+}
+else {
+  console.log('tes')
+}
+console.log('Halo ' + peran + ' ' + nama + ', ciptakan keajaiban yang membantu kemenanganmu!')
